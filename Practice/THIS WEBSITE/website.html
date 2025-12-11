@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel= "stylesheet" href= "/1.3.0/css/line-awesome.css" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBSITE</title>
+    <style>
+        .Header {
+            display: flex;  
+            justify-content: center;
+            margin:  0px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: #ffffff;
+            border: 1px solid;
+
+            
+        }
+        .nav-bar {
+            font-family: Georgia, 'Times New Roman', serif; 
+        }
+        .Header .nav-bar {
+            float: left;
+        }
+        .Header .nav-bar a {
+            display: block;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 14px 50px;
+            text-decoration: none;
+            margin-left: 0;
+            
+            
+            border-left: 1px solid;
+        }
+
+        .Header .nav-bar a:hover {
+            color: rgb(255, 255, 255);
+            background-color: #000000;
+            /* border-bottom: 1px solid black ;
+            border-top: 1px solid black;
+            border-left: 1px solid black;
+            border-right: 1px solid black; */
+
+        }
+
+        
+        .Ant {
+            border: 1px solid black;
+            padding: 50px;
+            margin-bottom: 20px;
+            text-align: center;
+            border-left: none; border-right: none;
+        }
+        i {
+            text-align: center;
+            padding: 14px 10px;
+        }
+
+        /* .input-icons {
+            width: 100%;
+        } */
+        /* .input-icons i {
+            position: absolute;
+        } */
+        .icon {
+            padding: 1px;
+            margin: 5px;
+            
+        }
+        .input-field {
+            width: 120px;
+            padding: 15px;
+            /* text-align: center; */
+        }
+        
+        .icon-e {
+            color: #000000;
+        }
+        .icon-list {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: block;
+            text-decoration: none;
+            float: left;
+        }
+
+        .melon {
+            font-size: 25px;
+        }
+        .name-logo {
+            font-size: 130px;
+            
+        }
+        #bannerimage {
+
+            width: 100%;
+            background-image: url(http://s30.postimg.org/x0ne0p5wx/bootsrap.png);
+            height: 405px;
+            background-color: rgb(81, 178, 222);
+            background-position: center;
+            align-items: center ;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .banner-item {
+            font-size: 60px;
+            
+        }
+        .banner-box {
+            border: #000000 solid 1px;
+            color: rgb(0, 0, 0);
+            
+            padding: 14px 50px;
+        }
+        .banner-list {
+            text-align: center;
+            
+            
+        }
+
+        .banner-box :hover a:visited { 
+            color:#000; 
+        }
+        a:link {
+            color: rgb(0, 0, 0);
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited {
+            color: rgb(0, 0, 0);
+            background-color: transparent;
+            text-decoration: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="Ant">
+        <div class="melon">SHOP FOR CLOTH</div>
+        <div class="name-logo">NEXT LEVEL</div>
+    </div>
+    <header class="Header" style="text-align: center; border-left: none; border-right: none;" >
+        <div class="nav-bar"><a href="/website.html">HOME</a></div>
+        <div class="nav-bar"><a href="/about.html">ABOUT</a></div>
+        <div class="nav-bar"><a href="/sales.html">SALES</a></div>
+        <div class="nav-bar" style="border-right: 1px solid;"><a href="/gender.html">GENDER</a></div>
+        <!-- <div class="nav-bar" style="border-right: 1px solid;"><a href="/index.html">SEARCH</a></div> -->
+        <!-- <i class="las la-search"></i>
+        <input type="text" placeholder="SEARCH"  style=" padding: 14px 0; text-align: left; border: none; border-right: 1px solid black; outline: none;"> -->
+        
+        
+        <div class="input-icons ">
+             <i class="las la-search icon" ></i>
+            <input class="input-field" type="text" style="border: none; border-right: 1px solid;">
+
+        </div>
+        <div class="icon-nav" style="border-right: solid 1px  ;">
+            <ul class="icon-list" >
+                <li class="icon-list"><a class="icon-e" href="https://www.facebook.com/"><i class="lab la-facebook-f"></i></a></li>
+                <li class="icon-list"><a class="icon-e" href="https://www.instagram.com/"><i class="lab la-instagram"></i></a></li>
+                <li class="icon-list"><a class="icon-e" href="https://www.twitter.com/"><i class="lab la-twitter"></i></a></li>
+                <li class="icon-list"><a class="icon-e" href="https://www.pinterest.com/"><i class="lab la-pinterest-p"></i></a></li>
+            </ul>
+            <!-- <a class="icon-e" href="https://www.facebook.com/"><i class="lab la-facebook-f"></i></a>
+            <a class="icon-e" href="https://www.instagram.com/"><i class="lab la-instagram"></i></a>
+            <a class="icon-e" href="https://www.twitter.com/"><i class="lab la-twitter"></i></a>
+            <a class="icon-e" href="https://www.pinterest.com/"><i class="lab la-pinterest-p"></i></a> -->
+            
+        </div>
+    
+    </header>
+    <div id="bannerimage">
+        <div class="banner-list">
+            <div class="banner-item">SHOP FOR STYLES</div>
+            <div class="banner-box ben"><a href="/website.html">COLLECTIONS</a></div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
